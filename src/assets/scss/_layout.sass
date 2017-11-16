@@ -1,0 +1,151 @@
+html,body
+  min-height: 100%
+  height: 100%
+
+html.start,
+body.start
+  overflow: hidden
+
+body *
+  outline: none
+  line-height: 100%
+
+*, *:after, *:before
+  box-sizing: border-box
+
+body
+  background: $bg-white
+  margin: 0
+  padding: 0
+  font-family: $muller-bold
+  color: $col-black
+  line-height: 1
+  display: flex
+  flex-direction: column
+
+a
+  color: $colorLink
+  text-decoration: none
+  transition: color $dur
+
+  &:hover
+  color: $colorLink-h
+
+p
+  margin: 0
+  padding: 0 0 10px 0
+
+h1,h2,h3,h4,h5,h6
+  line-height: 100%
+  padding: 0
+  margin: 0
+
+.title
+  &_h1
+    font-family: $muller-reg
+    color: $col-black
+    +font(45.5, 151, $width-min, $width-max)
+    line-height: 1.12
+    position: absolute
+    z-index: 2
+    left: 9.37vw
+    bottom: 19vh
+
+.header
+  margin-top: 5.3vh
+  border-top: 1px solid $bg-gray
+  @extend .g-content-wr
+
+  &__wr
+    min-height: 40px
+    align-items: baseline
+
+  &__logo
+    padding-bottom: 1vh
+
+  &__logo-text
+    font-family: $muller-med
+    text-transform: uppercase
+    line-height: 4.2
+    +font(16.2, 20, $width-min, $width-max)
+    +max-w($width-mid)
+      font-size: 18px
+
+  &__work
+    font-family: $muller-reg
+    text-transform: uppercase
+    padding-bottom: 1vh
+    line-height: 1.1
+    +font(12.3, 16, $width-min, $width-max)
+    +max-w($width-mid)
+      font-size: 14px
+
+  &__menu-icon
+    padding-bottom: 1vh
+
+.menu
+  padding-top: 8.5vh
+
+  &__item
+    padding-bottom: 1.9vh
+
+  &__link
+    font-family: $muller-light
+    line-height: 1.1
+    font-size: 21px
+    +font(19.3, 23, $width-min, $width-max)
+    +max-w($width-mid)
+      font-size: 21px
+
+.main
+  position: relative
+  flex-grow: 1
+  @extend .g-content-wr
+
+.footer
+  padding: 0 9.2vw
+  display: flex
+  justify-content: space-between
+  align-items: center
+  background: $bg-black
+  height: 11.11vh
+  @extend .g-content-wr
+
+  &__wr
+    display: flex
+
+  &__vacancy
+    font-family: $muller-reg
+    color: $col-white
+    +font(12, 20.7, $width-min, $width-max)
+    margin-left: 8.85vw
+
+
+.social-links
+  display: flex
+
+  &__item
+    font-family: $muller-reg
+    color: $col-white
+    +font(12, 20.7, $width-min, $width-max)
+    margin-right: 1.1vw
+
+  &:last-of-type
+    margin-right: 0
+
+
+.lang
+
+  &__items
+    font-family: $muller-reg
+    color: $col-white
+    +font(8.5, 20.7, $width-min, $width-max)
+    margin-left: 1.6vw
+    +max-w(1220)
+      font-size: 12px
+
+  &:first-of-type
+    margin-left: 0
+
+  &.active
+    opacity: 0.8
