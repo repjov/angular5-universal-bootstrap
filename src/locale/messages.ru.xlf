@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="a5b29d8a93bb03df19e86383ceafb09d217352e6" datatype="html">
+        <source>work with us</source>
+        <target>Bonjour i18n !</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/header/header.component.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

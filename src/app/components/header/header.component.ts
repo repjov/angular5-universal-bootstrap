@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 
 @Component({
-  selector: 'home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.sass']
+  selector: 'lds-header',
+  templateUrl: './header.component.html',
+  styleUrls: ['./header.component.sass'],
 })
-export class HomeComponent implements OnInit {
+export class HeaderComponent implements OnInit {
   public message: string;
 
   constructor() {}

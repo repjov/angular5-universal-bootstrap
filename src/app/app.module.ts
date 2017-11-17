@@ -6,6 +6,8 @@ import { RouterModule } from '@angular/router';
 //components
 import { AppComponent } from './components/app';
 import { HomeComponent } from './components/home';
+import { HeaderComponent } from './components/header';
+import { FooterComponent } from './components/footer';
 
 //routing
 import { routing } from './app.routing';
@@ -14,6 +16,8 @@ import { routing } from './app.routing';
   declarations: [
     AppComponent,
     HomeComponent,
+    HeaderComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({appId: 'lds'}),

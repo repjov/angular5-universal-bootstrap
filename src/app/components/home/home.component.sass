@@ -1,0 +1,18 @@
+@import "../../../assets/sass/mixins"
+@import "../../../assets/sass/variables"
+
+.main
+  position: relative
+  flex-grow: 1
+  @extend .g-content-wr
+
+.title
+  &_h1
+    font-family: $muller-reg
+    color: $col-black
+    +font(45.5, 151, $width-min, $width-max)
+    line-height: 1.12
+    position: absolute
+    z-index: 2
+    left: 9.37vw
+    bottom: 19vh
