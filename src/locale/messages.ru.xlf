@@ -18,14 +18,14 @@
           <context context-type="sourcefile">app/components/home/home.component.ts</context>
           <context context-type="linenumber">1</context>
         </context-group>
-      <target state="final">Dev. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>
-        highload systems, <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>
-        mobile app &amp; AR</target></trans-unit><trans-unit id="f17c3deae41dc003cc1e6d810f9aa54ec5fd5c14" datatype="html">
+      <target state="final">Разработка <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>
+        сложных систем, <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>
+        мобильных приложений и AR</target></trans-unit><trans-unit id="f17c3deae41dc003cc1e6d810f9aa54ec5fd5c14" datatype="html">
         <source>Vacancy</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/components/footer/footer.component.ts</context>
           <context context-type="linenumber">12</context>
         </context-group>
-      <target state="final">Vacancy</target></trans-unit></body>
+      <target state="final">Вакансии</target></trans-unit></body>
   </file>
 </xliff>
