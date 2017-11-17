@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 //components
-import { AppComponent } from '../../components/app';
+import { AppComponent } from './app.component';
 
 //Pages
 import { HomeComponent } from '../../components/pages/home';

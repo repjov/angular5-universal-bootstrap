@@ -2,7 +2,7 @@
 import { Routes, RouterModule } from '@angular/router';
 
 //components
-import { AppComponent } from '../../components/app';
+import { AppComponent } from './app.component';
 import { HomeComponent } from '../../components/pages/home';
 
 
