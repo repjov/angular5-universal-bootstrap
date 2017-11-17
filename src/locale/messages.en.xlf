@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en" datatype="plaintext" original="ng2.template">
+  <file source-language="ru" datatype="plaintext" original="ng2.template" target-language="en">
     <body>
-      <trans-unit id="a5b29d8a93bb03df19e86383ceafb09d217352e6" datatype="html">
-        <source>work with us</source>
-        <target>работай с нами</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/components/header/header.component.ts</context>
-          <context context-type="linenumber">12</context>
-        </context-group>
-      </trans-unit>
-    <trans-unit id="771efe95b3684a6e8b4f427065849f8acca9c731" datatype="html">
+      <trans-unit id="771efe95b3684a6e8b4f427065849f8acca9c731" datatype="html">
         <source>Dev. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>
         highload systems, <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>
         mobile app &amp; AR</source>
@@ -18,14 +10,23 @@
           <context context-type="sourcefile">app/components/home/home.component.ts</context>
           <context context-type="linenumber">1</context>
         </context-group>
-      <target state="final">Dev. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>
+      <target state="new">Dev. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>
         highload systems, <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/>"/>
-        mobile app &amp; AR</target></trans-unit><trans-unit id="f17c3deae41dc003cc1e6d810f9aa54ec5fd5c14" datatype="html">
+        mobile app &amp; AR</target></trans-unit>
+      <trans-unit id="a5b29d8a93bb03df19e86383ceafb09d217352e6" datatype="html">
+        <source>work with us</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/header/header.component.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      <target state="new">work with us</target></trans-unit>
+      <trans-unit id="f17c3deae41dc003cc1e6d810f9aa54ec5fd5c14" datatype="html">
         <source>Vacancy</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/components/footer/footer.component.ts</context>
           <context context-type="linenumber">12</context>
         </context-group>
-      <target state="final">Vacancy</target></trans-unit></body>
+      <target state="new">Vacancy</target></trans-unit>
+    </body>
   </file>
 </xliff>

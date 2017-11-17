@@ -18,7 +18,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "translation": "ng xi18n --outputPath src/locale",
+    "extract-i18n": "ng xi18n --outputPath src/locale --locale en && xliffmerge --profile xliffmerge.json ru en",
     "start:ru": "ng serve --aot --i18nFile=src/locale/messages.ru.xlf --i18nFormat=xlf --locale=ru",
     "build": "ng build",
     "build:client-and-server-bundles": "ng build --prod && ng build --prod --app 1 --output-hashing=false",
@@ -55,6 +55,7 @@
     "cpy-cli": "^1.0.1",
     "express": "^4.15.2",
     "http-server": "^0.10.0",
+    "ngx-i18nsupport": "^0.9.0",
     "reflect-metadata": "^0.1.10",
     "ts-loader": "^2.3.7",
     "typescript": "~2.4.2"
