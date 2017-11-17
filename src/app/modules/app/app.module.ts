@@ -5,9 +5,13 @@ import { RouterModule } from '@angular/router';
 
 //components
 import { AppComponent } from '../../components/app';
-import { HomeComponent } from '../../components/home';
-import { HeaderComponent } from '../../components/header';
-import { FooterComponent } from '../../components/footer';
+
+//Pages
+import { HomeComponent } from '../../components/pages/home';
+
+//shared layouts
+import { HeaderComponent } from '../../components/layouts/header';
+import { FooterComponent } from '../../components/layouts/footer';
 
 //routing
 import { routing } from './app.routing';
